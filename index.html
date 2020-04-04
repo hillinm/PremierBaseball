@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Baseball KC - Pitching, Hitting, and Strength Training</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo2_small2.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Training and Services
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Remote Programming Training</a>
+                            <a class="dropdown-item" href="#">Lessons</a>
+                            <a class="dropdown-item" href="#">Programs</a>
+                            <a class="dropdown-item" href="#">Rentals</a>
+                            <a class="dropdown-item" href="#">Strength and Conditioning</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Events
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Camps</a>
+                            <a class="dropdown-item" href="#">College Showcases and Pro Days</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Technology
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Rapsodo</a>
+                            <a class="dropdown-item" href="#">HitTrax</a>
+                            <a class="dropdown-item" href="#">Chronos</a>
+                            <a class="dropdown-item" href="#">Marc Pro</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Tournaments
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="https://pipelinetournaments.com/">Pipeline Tournaments</a>
+                            <a class="dropdown-item" href="https://www.perfectgame.org/">Perfect Game</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Team Store
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="pages/RawlingsStore.html">Rawlings Store</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Blog
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Action</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle bg-light" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    About Us
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Instructors</a>
+                            <a class="dropdown-item" href="#">Alumni</a>
+                            <a class="dropdown-item" href="#">Facility</a>
+                            <a class="dropdown-item" href="#">Contact Us</a>
+                            <a class="dropdown-item" href="#">Why Train With Us?</a>
+                            <a class="dropdown-item" href="#">Premier Charities - Premier Baseball Gives Back</a>
+                            <a class="dropdown-item" href="#">Referrals</a>
+                            <a class="dropdown-item" href="#">Testimonials</a>
+                            <a class="dropdown-item" href="#">Sponsors</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </nav>    
+<!---Image Slider-->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active img-fluid">
+                    <img class="d-block w-100" src="images/Baseball.jpg">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Premier Baseball Training</h1>
+                        <h3>NO DAYS OFF</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">View Demo</button>
+                        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                    </div>
+                </div>
+               <div class="carousel-item img-fluid">
+                    <img class="d-block w-100" src="images/Baseballs.jpg">
+                </div>
+                <div class="carousel-item GITimg-fluid">
+                    <img class="d-block w-100" src="images/BaseballFan.jpg">
+                </div>
+            </div>
+        </div>
+
+<!---Jumbotron-->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">
+                We pride ourselves on having professional baseball and softball instructors who not only focus on developing an athlete’s skills, but also on building confidence and connection on a personal level.
+            <br>
+            <br>
+            In Fall 2019 we moved into our state of the art facility in Overland Park, Kansas City. We are conveniently located right off 435 and Roe.
+            <br>
+            <br>
+            For more information and more pictures of our Overland Park facility click below.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Premier Facility</button></a>
+        </div>
+    </div>
+</div>
+
+<!---Welcome Section-->
+<div class="container-fluid padding">
+    <div class="row-welcome text-center">
+        <h1 class="display-4">We Are Premier Baseball</h1>
+    </div>
+    <hr>
+    <div class="col-12 text-center">
+        <p class="lead">“Baseball is about talent, hard work, and strategy. But at the deepest level, it’s about love, integrity, and respect.” – Pat Gillick</p>
+    </div>
+</div>
+<!---Three Column Section-->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="images/Chronos-2.1-HD.jpg">
+            <h3>Chronos</h3>
+            <p>High-speed super-slow-motion camera can record video at mutiple thousands of frames per second.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="images/htrx-training-hitter.jpg">
+            <h3>HitTrax</h3>
+            <p>Measures real-time analytics and data, displaying live results for immediate feedback.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="images/rapsodo-baseball.jpg">
+            <h3>Rapsodo</h3>
+            <p>Radar-triggered camera system pitch-tracking tool that captures real-time ball-flight</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="images/MarcPro.jpg">
+            <h3>Marc Pro</h3>
+            <p>Cutting edge muscle stimulation device that helps muscles recover faster.</p> 
+        </div>
+    </div>
+</div>
+<hr class="my-4">
+<!---Two Column Section-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>We develop and train the best talent!</h2>
+            <br>
+            <p>We pride ourselves on having professional baseball and softball instructors who not only focus on developing an athlete’s skills, but also on building confidence and connection on a personal level. Our goal is to develop relationships that last, and to watch our clients grow as players and as people.</p>
+            <br>
+            <p>All skill levels train at Premier, from youth ages just starting out all the way to professionals in the Major Leagues.</p>
+            <br>
+            <p>We are not team affiliated. Coaches from the best teams in the area send their players to train with us.</p>
+            <div class="col-lg-8">
+                <a href="#"><button type="button" class="btn btn-outline-primary btn-lg">Learn More</button></a>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="images/Pitching-lessons-and-pitching-program-in-kansas-city-baseball-training-facility-10.jpg" class="img-fluid">
+        </div>
+    </div>
+</div>
+<hr class="my-4">
+<!---Fixed Background-->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+    </div>
+</figure>
+<!---Emoji Section-->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Fun Time</button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4">
+                    <img class="gif" src="gif/letsgo.gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="gif/letsgo4.gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="gif/letsgo2.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!---Meet the team-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Meet The Team</h1>
+        </div>
+        <hr>
+
+    </div>
+</div>
+
+<!---Cards-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Bob Zimmermann</h4>
+                <h6 class="card-subtitle text-muted">Owner</h6>
+                <h6 class="card-subtitle text-muted">Head Pitching Instructor</h6>
+              </div>
+              <img src="images/BobZimmermann.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <ul style="list-style-type: none; font-size: small;">
+                    <li>DeSmet High School</li>
+                    <li>Missouri State</li>
+                    <li>Team USA</li>
+                    <li>Multiple Minor League Organizations</li>
+                </ul>
+                <a href="#" class="card-link">Instructor Page</a><br>
+                <a href="#" class="card-link">Schedule a Lesson</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Shane Davies</h4>
+                <h6 class="card-subtitle text-muted">Senior Pitching Instructor</h6>
+              </div>
+              <img src="images/ShaneDavies.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <a href="#" class="card-link">Instructor Page</a><br>
+                <a href="#" class="card-link">Schedule a Lesson</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Trevor Jones</h4>
+                <h6 class="card-subtitle text-muted">Hitting Instructor</h6>
+              </div>
+              <img src="images/TrevorJones.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <p class="card-text text-center">Trevor loves to train athletes of all ages. While growing up, Trevor loved all sports but played basketball and baseball through high school. Baseball earned Trevor a scholarship to the University of Central Missouri and was a 3yr starting centerfielder for the Mules. While at UCM Trevor received awards on the field such as:</p>
+                <ul style="list-style-type: none; font-size: small;">
+                    <li>2014-15 MIAA 1st Team All-Conference Outfielder</li>
+                    <br>
+                    <li>2014-15 Daktronics and NCBWA All-Central Region 2nd Team Outfielder</li>
+                    <br>
+                    <li>Career .363 Batting Average at the University of Central Missouri</li>
+                </ul>
+                    <a href="#" class="card-link">Instructor Page</a><br>
+                    <a href="#" class="card-link">Schedule a Lesson</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Justin Chigbogu</h4>
+                <h6 class="card-subtitle text-muted">Hitting Instructor</h6>
+              </div>
+              <img src="images/JustinChigbogu.jpeg" alt="" class="img-fluid">
+              <div class="card-body">
+                <p class="card-text text-center">Justin was selected by the LA Dodgers in the 4th round of the MLB draft, where he broke home-run records in the minors. Justin is an experienced first baseman who is well-known for his tremendous power at the plate.</p>
+                <a href="#" class="card-link">Instructor Page</a><br>
+                <a href="#" class="card-link">Schedule a Lesson</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Zach Miracle</h4>
+                <h6 class="card-subtitle text-muted">Hitting, Fielding, Pitching Instructor</h6>
+              </div>
+              <img src="images/ZachMiracle.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <a href="#" class="card-link">Instructor Page</a><br>
+                <a href="#" class="card-link">Schedule a Lesson</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---Two Column Section-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Join Our Team Today!</h2>
+            <br>
+            <p><i>“Premier Baseball in my opinion has the complete package for development as a player. From fine tuning my delivery through movement patterns, to training in the weight room, and stressing the importance of recovery, the staff has created a way for me to improve every day. The environment at Premier is the best I’ve experienced because you are surrounded by athletes who are driven and trying to improve themselves just like you are, while being guided by a staff that has each player’s best interest in mind. I enjoy every day I go to the facility because I know I’m training with the best.”
+
+            <br>
+            <br>29th Round Royals Draft Pick Grant Gavin</p></i>
+            <div class="col-lg-8">
+                <a href="pages/whyTrainWithUs.html"><button type="button" class="btn btn-outline-primary btn-lg">Why Train With Us?</button></a>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="images/WhyTrainWithUs.jpg" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!---Connect-->
+    </body>
+</html>
