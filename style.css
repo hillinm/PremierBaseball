@@ -63,7 +63,13 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
+.site-footer{
+  background-color: gray;
+}
+.footer-title{
+  font-size: larger;
+  color: white;
+}
 
 
 
